@@ -1,0 +1,18 @@
+  580  alias dfimage="docker run -v /var/run/docker.sock:/var/run/docker.sock --rm alpine/dfimage" dfimage -sV=1.36 himanshu1995/simple-backend:be2d44d792c54cfd54d44b2e5cddf2522433f4dfdf
+  581  alias dfimage="docker run -v /var/run/docker.sock:/var/run/docker.sock --rm alpine/dfimage"
+  582  dfimage -sV=1.36 himanshu1995/simple-backend:be2d44d792c54cfd54d44b2e5cddf2522433f4df
+  583  dfimage -sV=1.36 himanshu1995/simple-backend:be2d44d792c54cfd54d44b2e5cddf2522433f4dfdf
+  584  docker images | grep himanshu
+  585  dfimage -sV=1.36 himanshu1995/simple-backend:be2d44d792c54cfd54d44b2e5cddf2522433f4df
+  586  ls -lhtr
+  587  dfimage -sV=1.36 himanshu1995/simple-backend:be2d44d792c54cfd54d44b2e5cddf2522433f4df
+  588  dfimage -sV=1.36 himanshu1995/simple-backend:be2d44d792c54cfd54d44b2e5cddf2522433f4df -f
+  589  ls -lhtr | grep app
+  590  cd a5e024813e7f57ede300c070b118dccd24082c496609a3554378c5e69cff89cf
+  591  cd /a5e024813e7f57ede300c070b118dccd24082c496609a3554378c5e69cff89cf
+  592  docker run -it -d -p 8080:8888 himanshu1995/simple-backend:be2d44d792c54cfd54d44b2e5cddf2522433f4df
+  593  docker ps | grep himanshu
+  594  docker exec -it a3205402489b
+  595  docker exec -it a3205402489b /bin/bash
+  596  docker exec -it a3205402489b /bin/sh
+  597  ls
